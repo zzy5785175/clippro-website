@@ -235,9 +235,17 @@ const clipProTranslations = {
       "完整历史：英文文本、图片、视频和文件混合显示",
       "搜索 onboarding 后找到两条相关记录",
       "清单预览及粘贴、仅复制、收藏操作",
-      "图片预览中的识别文字入口",
+      "OCR 原图选中文字，右侧同步高亮识别结果",
       "清单已收藏，并加入 Launch Kit 标签",
-      "历史保留时间、图片副本和手动清理设置"
+      "历史保留时间、图片副本和手动清理设置",
+      "快捷面板：即选即用",
+      "快捷面板在鼠标所在屏幕的底部展开，用卡片展示图片、文字、链接和文件。单击选中、双击粘贴，或用 ⌘1–⌘9 快速取用，让你在当前工作中随手找回内容。",
+      "不必抄写截图里的文字：在左侧原图上选择文字，右侧会定位对应内容。用 ⌘C 复制所选部分，或点击「复制全部文字」一次取出完整结果。",
+      "图中清单同时加入收藏和 Launch Kit 标签。常用回复可以收藏，项目资料可以按标签归类；这些内容会避开自动清理，方便长期重复使用。",
+      "桌面宠物：剪贴板的桌面入口",
+      "宠物不仅是桌面陪伴，也是快捷入口：点击打开面板，拖动调整位置，右键可查看历史、暂停记录或打开宠物设置。还能选择形象并调整大小，让入口更适合你的桌面。",
+      "桌面宠物库、显示开关与大小设置",
+      "卡片式快捷面板，显示图片、代码、链接和文件"
     ]
   },
   "zh-Hant": {
@@ -475,9 +483,17 @@ const clipProTranslations = {
       "完整歷史：英文文字、圖片、影片和檔案混合顯示",
       "搜索 onboarding 後找到兩條相關記錄",
       "清單預覽及粘貼、僅複製、收藏操作",
-      "圖片預覽中的識別文字入口",
+      "在 OCR 原圖選取文字，右側同步標示辨識結果",
       "清單已收藏，並加入 Launch Kit 標籤",
-      "歷史保留時間、圖片副本和手動清理設定"
+      "歷史保留時間、圖片副本和手動清理設定",
+      "快捷面板：即選即用",
+      "快捷面板在滑鼠所在螢幕的底部展開，以卡片顯示圖片、文字、連結與檔案。點一下選取、按兩下貼上，或用 ⌘1–⌘9 快速取用，在工作中隨手找回內容。",
+      "不必手抄截圖中的文字：在左側原圖上選取文字，右側會定位對應內容。用 ⌘C 複製選取的部分，或按「複製全部文字」一次取出完整結果。",
+      "圖中的清單同時加入收藏與 Launch Kit 標籤。常用回覆可收藏，專案資料可按標籤整理；這些內容不會被自動清理，方便長期重複使用。",
+      "桌面寵物：剪貼簿的桌面入口",
+      "寵物也是快捷入口：點一下開啟面板，拖曳調整位置，按右鍵可查看歷史、暫停記錄或開啟寵物設定。還能選擇造型與調整大小，讓入口更適合你的桌面。",
+      "桌面寵物庫、顯示開關與大小設定",
+      "卡片式快捷面板，顯示圖片、程式碼、連結與檔案"
     ]
   },
   "en": {
@@ -715,9 +731,17 @@ const clipProTranslations = {
       "Full history with English text, images, video, and files",
       "Two matching records for onboarding",
       "Checklist preview with paste, copy only, and favorite actions",
-      "Recognize Text in the image preview",
+      "Text selected on the OCR image with the corresponding result highlighted",
       "Checklist favorited and tagged Launch Kit",
-      "History retention, image copies, and manual cleanup settings"
+      "History retention, image copies, and manual cleanup settings",
+      "Quick Panel: pick and paste",
+      "The Quick Panel opens at the bottom of the screen containing your pointer, with cards for images, text, links, and files. Click to select, double-click to paste, or use ⌘1–⌘9 to retrieve content without breaking your flow.",
+      "Skip retyping a screenshot. Select text on the original image at the left to highlight the matching result on the right. Press ⌘C to copy the selection, or use Copy all text for the entire result.",
+      "The pictured checklist is both a favorite and tagged Launch Kit. Favorite reusable replies and group project materials with tags. These records stay out of automatic cleanup, ready to use again.",
+      "Desktop pets: your clipboard companion",
+      "A pet is also a shortcut to your clipboard: click to open the panel, drag to reposition it, or right-click to browse history, pause recording, or open pet settings. Choose its character and size to suit your desktop.",
+      "Desktop pet library, visibility switch, and size settings",
+      "Quick Panel cards for images, code, links, and files"
     ]
   },
   "ja": {
@@ -955,9 +979,17 @@ const clipProTranslations = {
       "英語の文章、画像、動画、ファイルを含む履歴全体",
       "onboarding に一致する2件の検索結果",
       "チェックリストのプレビューと貼り付け、コピー、お気に入り操作",
-      "画像プレビューの文字認識ボタン",
+      "OCR 原画像で選んだ文字に対応する結果を強調表示",
       "お気に入りと Launch Kit タグに追加したチェックリスト",
-      "履歴の保存期間、画像のコピー、手動削除の設定"
+      "履歴の保存期間、画像のコピー、手動削除の設定",
+      "クイックパネルですぐに取り出す",
+      "クイックパネルはポインタのある画面の下部に開き、画像、文章、リンク、ファイルをカードで表示します。クリックで選択、ダブルクリックで貼り付け、または ⌘1–⌘9 で取り出して、作業を続けられます。",
+      "スクリーンショットの文字を打ち直す必要はありません。左側の原画像で文字を選ぶと、右側の対応箇所が強調されます。⌘C で選択部分をコピーするか、「すべての文字をコピー」で結果全体を取り出せます。",
+      "画像のチェックリストは、お気に入りと Launch Kit タグの両方に追加されています。定型返信はお気に入りに、プロジェクト資料はタグで整理できます。これらの項目は自動削除されず、繰り返し使えます。",
+      "デスクトップのペットをクリップボードの入口に",
+      "ペットもクリップボードへの入口になります。クリックでパネルを開き、ドラッグで移動し、右クリックで履歴、一時停止、ペット設定を利用できます。見た目やサイズも選べます。",
+      "デスクトップのペット一覧、表示スイッチ、サイズ設定",
+      "画像、コード、リンク、ファイルをカードで表示するクイックパネル"
     ]
   },
   "ko": {
@@ -1195,9 +1227,17 @@ const clipProTranslations = {
       "영어 텍스트, 이미지, 동영상과 파일이 있는 전체 기록",
       "onboarding과 일치하는 검색 결과 두 개",
       "체크리스트 미리보기와 붙여넣기, 복사만 하기, 즐겨찾기 동작",
-      "이미지 미리보기의 텍스트 인식 버튼",
+      "OCR 원본 이미지에서 선택한 텍스트와 강조된 인식 결과",
       "즐겨찾기와 Launch Kit 태그에 추가한 체크리스트",
-      "기록 보관 기간, 이미지 사본과 수동 정리 설정"
+      "기록 보관 기간, 이미지 사본과 수동 정리 설정",
+      "빠른 패널에서 바로 골라 붙여넣기",
+      "빠른 패널은 포인터가 있는 화면 아래에 열리며 이미지, 텍스트, 링크와 파일을 카드로 표시합니다. 클릭으로 선택하고 두 번 클릭으로 붙여넣거나, ⌘1–⌘9로 가져와 작업을 이어가세요.",
+      "스크린샷의 문자를 다시 입력하지 않아도 됩니다. 왼쪽 원본 이미지에서 텍스트를 선택하면 오른쪽 결과의 해당 부분이 강조됩니다. ⌘C로 선택 부분을 복사하거나 전체 텍스트 복사로 모든 결과를 가져오세요.",
+      "그림의 체크리스트는 즐겨찾기와 Launch Kit 태그에 함께 추가되어 있습니다. 자주 쓰는 답장은 즐겨찾기에, 프로젝트 자료는 태그로 정리하세요. 이 항목들은 자동 정리에서 제외되어 반복해서 사용할 수 있습니다.",
+      "데스크톱 펫을 클립보드 바로가기로",
+      "펫은 클립보드 바로가기이기도 합니다. 클릭하면 패널이 열리고 드래그하면 위치를 바꿀 수 있습니다. 우클릭으로 기록 보기, 기록 일시 정지와 펫 설정을 사용할 수 있으며 모습과 크기도 고를 수 있습니다.",
+      "데스크톱 펫 라이브러리, 표시 스위치와 크기 설정",
+      "이미지, 코드, 링크와 파일을 카드로 표시하는 빠른 패널"
     ]
   },
   "fr": {
@@ -1435,9 +1475,17 @@ const clipProTranslations = {
       "Historique complet avec textes anglais, images, vidéo et fichiers",
       "Deux résultats pour onboarding",
       "Aperçu de la liste avec actions de collage, copie et favoris",
-      "Reconnaissance de texte dans l’aperçu d’image",
+      "Texte sélectionné dans l’image OCR et résultat correspondant surligné",
       "Liste ajoutée aux favoris et à l’étiquette Launch Kit",
-      "Conservation, copies d’images et nettoyage manuel"
+      "Conservation, copies d’images et nettoyage manuel",
+      "Panneau rapide : choisir et coller",
+      "Le panneau rapide s’ouvre au bas de l’écran où se trouve le pointeur, avec des cartes pour les images, textes, liens et fichiers. Cliquez pour sélectionner, double-cliquez pour coller ou utilisez ⌘1–⌘9 pour retrouver un contenu sans interrompre votre travail.",
+      "Évitez de retaper le texte d’une capture. Sélectionnez-le sur l’image à gauche pour repérer le passage correspondant à droite. Appuyez sur ⌘C pour copier la sélection, ou sur Copier tout le texte pour récupérer le résultat complet.",
+      "La liste illustrée est à la fois un favori et associée à Launch Kit. Mettez les réponses réutilisables en favoris et regroupez les documents par étiquette. Ces éléments sont exclus du nettoyage automatique et restent disponibles pour être réutilisés.",
+      "Animaux de bureau : un accès au presse-papiers",
+      "L’animal est aussi un raccourci : cliquez pour ouvrir le panneau, faites-le glisser pour le déplacer, ou faites un clic droit pour consulter l’historique, suspendre l’enregistrement ou ouvrir ses réglages. Choisissez son apparence et sa taille.",
+      "Bibliothèque d’animaux, affichage et réglage de la taille",
+      "Cartes du panneau rapide pour images, code, liens et fichiers"
     ]
   },
   "de": {
@@ -1675,9 +1723,17 @@ const clipProTranslations = {
       "Gesamter Verlauf mit englischem Text, Bildern, Video und Dateien",
       "Zwei passende Ergebnisse für onboarding",
       "Checklisten-Vorschau mit Einfügen, Kopieren und Favoriten",
-      "Texterkennung in der Bildvorschau",
+      "Textauswahl im OCR-Bild mit hervorgehobenem zugehörigem Ergebnis",
       "Checkliste als Favorit und mit Launch Kit getaggt",
-      "Aufbewahrung, Bildkopien und manuelle Bereinigung"
+      "Aufbewahrung, Bildkopien und manuelle Bereinigung",
+      "Schnellpanel: auswählen und einfügen",
+      "Das Schnellpanel öffnet sich unten auf dem Bildschirm mit Ihrem Mauszeiger und zeigt Karten für Bilder, Text, Links und Dateien. Ein Klick wählt aus, ein Doppelklick fügt ein. Mit ⌘1–⌘9 greifen Sie direkt auf Inhalte zu und arbeiten weiter.",
+      "Sparen Sie sich das Abtippen eines Screenshots. Wählen Sie links im Originalbild Text aus, um die entsprechende Stelle rechts hervorzuheben. Kopieren Sie die Auswahl mit ⌘C oder das gesamte Ergebnis mit Gesamten Text kopieren.",
+      "Die gezeigte Checkliste ist ein Favorit und mit Launch Kit getaggt. Speichern Sie häufige Antworten als Favoriten und organisieren Sie Projektmaterialien mit Tags. Diese Einträge sind von der automatischen Bereinigung ausgenommen und bleiben wiederverwendbar.",
+      "Desktop-Haustiere als Zwischenablage-Zugang",
+      "Das Haustier ist auch ein Kurzzugang: Ein Klick öffnet das Panel, Ziehen verschiebt es. Per Rechtsklick öffnen Sie den Verlauf, pausieren die Aufzeichnung oder gelangen zu den Haustier-Einstellungen. Figur und Größe lassen sich ebenfalls wählen.",
+      "Desktop-Haustierbibliothek, Anzeige und Größeneinstellung",
+      "Schnellpanel-Karten für Bilder, Code, Links und Dateien"
     ]
   }
 };
