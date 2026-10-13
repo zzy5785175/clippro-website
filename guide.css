@@ -1,0 +1,27 @@
+/* A reading-focused guide, with the app's blue palette and real product screenshots. */
+.guide-page{background:var(--bg)}
+.guide-layout{grid-template-columns:200px minmax(0,760px);gap:48px}
+.guide-layout aside{border-left:1px solid var(--line);padding-left:18px}
+.guide-layout aside a{padding:7px 0;line-height:1.5}
+.guide-content{min-width:0}
+.mobile-toc{display:none}
+.guide-content h1{font-size:40px;letter-spacing:-1px}
+.guide-content h2{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);scroll-margin-top:24px}
+.guide-content p{overflow-wrap:anywhere}
+.guide-content li{padding:5px 0}
+.guide-content ol{padding-left:24px}
+.guide-start{border-left:3px solid var(--blue);padding:18px 24px;margin:30px 0 36px;background:var(--surface)}
+.guide-start>span{font-size:13px;font-weight:600;color:var(--blue)}
+.guide-start p{font-size:19px;margin:8px 0}
+.guide-start a{font-size:14px}
+.guide-content kbd{display:inline-block;font:inherit;font-size:14px;line-height:1.7;padding:0 6px;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;background:var(--bg)}
+.guide-content code{font-size:.9em;padding:2px 5px;background:var(--surface);border-radius:4px}
+.guide-content figure{margin:28px 0 12px}
+.guide-content figure a{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.guide-content figure img{display:block;width:100%;height:auto}
+.guide-content figcaption{font-size:12px;text-align:right;color:var(--muted);margin-top:6px}
+.guide-content em{font-size:13px;color:var(--muted);font-style:normal}
+.guide-content th{white-space:nowrap}
+.guide-contact{margin-top:60px}
+@media(max-width:760px){.guide-layout{padding:0 20px}.guide-layout aside{display:none}.mobile-toc{display:block;border-block:1px solid var(--line);padding:12px 0;margin:24px 0}.mobile-toc summary{cursor:pointer;color:var(--blue);font-weight:600}.mobile-toc a{display:block;text-decoration:none;padding:6px 0;font-size:14px}.guide-layout aside a{display:block;margin:0}.guide-content h1{font-size:30px}.guide-content h2{font-size:21px;margin-top:40px}.guide-start{padding:16px}.guide-start p{font-size:17px}.guide-page header{align-items:center}.guide-page header nav{max-width:62%;gap:8px 12px}.guide-content table{min-width:480px}}
+@media print{.guide-start{background:none}.guide-content figure{break-inside:avoid}.guide-content figure a{border:0}.guide-content figcaption,.guide-contact,footer{display:none}.guide-content h2{margin-top:24px}}
