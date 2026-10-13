@@ -48,15 +48,19 @@
     document.querySelectorAll('[data-heading]').forEach(element => {
       element.textContent = document.getElementById(element.dataset.heading).querySelector('h2').textContent;
     });
-    document.querySelector('header nav').setAttribute('aria-label', ui.nav);
+    document.querySelector('header nav').setAttribute('aria-label', page === 'guide' ? ui.guideNav : ui.nav);
     const aside = document.querySelector('aside');
     if (aside) aside.setAttribute('aria-label', ui.toc);
-    document.querySelectorAll('main img').forEach(element => { element.alt = ui.icon; });
+    document.querySelectorAll('main img:not([data-alt])').forEach(element => { element.alt = ui.icon; });
+    document.querySelectorAll('[data-alt]').forEach(element => {
+      const [documentName, index] = element.dataset.alt.split('.');
+      element.alt = content[documentName][index];
+    });
     selector.setAttribute('aria-label', ui.language);
     selector.value = language;
-    document.title = `${page === 'index' ? ui.homeTitle : ui[page]} · ClipPro`;
+    document.title = `${page === 'index' ? ui.homeTitle : ui[page]} · PasteNest`;
     document.querySelector('meta[name="description"]').content =
-      page === 'index' ? ui.homeIntro.replace(/<br>/g, ' ') : content[page][0];
+      page === 'index' ? ui.homeIntro.replace(/<br>/g, ' ') : page === 'guide' ? content.guide[2] : content[page][0];
 
     // Absolute paths also keep the earlier /privacy/ and /terms/ URLs working.
     const base = new URL(document.querySelector('header .brand').getAttribute('href'), location.href);
@@ -64,7 +68,7 @@
       const href = element.getAttribute('href');
       if (href.startsWith('#')) return;
       const destination = new URL(href, base);
-      if (destination.origin === location.origin) {
+      if (destination.origin === location.origin && !/\.(?:png|jpe?g|webp|gif)$/i.test(destination.pathname)) {
         destination.searchParams.set('lang', language);
         element.href = destination.href;
       }
